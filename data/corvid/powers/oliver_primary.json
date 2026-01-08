@@ -1,0 +1,49 @@
+{
+  "type": "origins:active_self",
+  "key": "key.origins.primary_active",
+  "cooldown": 700,
+  "condition": {
+    "type": "origins:power_active",
+    "power": "corvid:igor_mode",
+    "inverted": true
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:haste",
+          "duration": 120,
+          "amplifier": 1,
+          "is_ambient": true,
+          "show_particles": true,
+          "show_icon": true
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:night_vision",
+          "duration": 160,
+          "amplifier": 0,
+          "is_ambient": true,
+          "show_particles": true,
+          "show_icon": true
+        }
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "corvid:schism",
+        "operation": "add",
+        "change": 8
+      },
+      {
+        "type": "origins:add_exhaustion",
+        "value": 2.5
+      }
+    ]
+  },
+  "name": "power.corvid.oliver_primary.name",
+  "description": "power.corvid.oliver_primary.description"
+}
