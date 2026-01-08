@@ -1,0 +1,18 @@
+{
+  "type": "origins:modify_xp_gain",
+  "condition": {
+    "type": "origins:power_active",
+    "power": "corvid:igor_mode",
+    "inverted": true
+  },
+  "modifier": {
+    "operation": "multiply_total",
+    "value": 0.15
+  },
+  "name": {
+    "translate": "power.corvid.oliver_xp_gain.name"
+  },
+  "description": {
+    "translate": "power.corvid.oliver_xp_gain.description"
+  }
+}
