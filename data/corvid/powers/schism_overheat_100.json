@@ -18,10 +18,6 @@
       "show_icon": true
     }
   },
-  "name": {
-    "translate": "power.corvid.schism_overheat_100.name"
-  },
-  "description": {
-    "translate": "power.corvid.schism_overheat_100.description"
-  }
+  "name": "power.corvid.schism_overheat_100.name",
+  "description": "power.corvid.schism_overheat_100.description"
 }

@@ -9,10 +9,6 @@
     "operation": "multiply_total",
     "value": 0.15
   },
-  "name": {
-    "translate": "power.corvid.oliver_xp_gain.name"
-  },
-  "description": {
-    "translate": "power.corvid.oliver_xp_gain.description"
-  }
+  "name": "power.corvid.oliver_xp_gain.name",
+  "description": "power.corvid.oliver_xp_gain.description"
 }

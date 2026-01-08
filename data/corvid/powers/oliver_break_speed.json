@@ -13,10 +13,6 @@
     "operation": "multiply_total",
     "value": 0.35
   },
-  "name": {
-    "translate": "power.corvid.oliver_break_speed.name"
-  },
-  "description": {
-    "translate": "power.corvid.oliver_break_speed.description"
-  }
+  "name": "power.corvid.oliver_break_speed.name",
+  "description": "power.corvid.oliver_break_speed.description"
 }

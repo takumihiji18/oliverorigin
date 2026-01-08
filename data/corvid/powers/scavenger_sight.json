@@ -15,10 +15,6 @@
       }
     ]
   },
-  "name": {
-    "translate": "power.corvid.scavenger_sight.name"
-  },
-  "description": {
-    "translate": "power.corvid.scavenger_sight.description"
-  }
+  "name": "power.corvid.scavenger_sight.name",
+  "description": "power.corvid.scavenger_sight.description"
 }

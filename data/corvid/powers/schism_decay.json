@@ -22,12 +22,8 @@
     "type": "origins:change_resource",
     "resource": "corvid:schism",
     "operation": "add",
-    "value": -1
+    "change": -1
   },
-  "name": {
-    "translate": "power.corvid.schism_decay.name"
-  },
-  "description": {
-    "translate": "power.corvid.schism_decay.description"
-  }
+  "name": "power.corvid.schism_decay.name",
+  "description": "power.corvid.schism_decay.description"
 }

@@ -16,10 +16,6 @@
     ]
   },
   "render_elytra": false,
-  "name": {
-    "translate": "power.corvid.ink_wings.name"
-  },
-  "description": {
-    "translate": "power.corvid.ink_wings.description"
-  }
+  "name": "power.corvid.ink_wings.name",
+  "description": "power.corvid.ink_wings.description"
 }

@@ -6,10 +6,6 @@
   "hud_render": {
     "should_render": false
   },
-  "name": {
-    "translate": "power.corvid.combat_timer.name"
-  },
-  "description": {
-    "translate": "power.corvid.combat_timer.description"
-  }
+  "name": "power.corvid.combat_timer.name",
+  "description": "power.corvid.combat_timer.description"
 }

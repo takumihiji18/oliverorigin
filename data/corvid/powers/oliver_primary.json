@@ -36,7 +36,7 @@
         "type": "origins:change_resource",
         "resource": "corvid:schism",
         "operation": "add",
-        "value": 8
+        "change": 8
       },
       {
         "type": "origins:add_exhaustion",
@@ -44,10 +44,6 @@
       }
     ]
   },
-  "name": {
-    "translate": "power.corvid.oliver_primary.name"
-  },
-  "description": {
-    "translate": "power.corvid.oliver_primary.description"
-  }
+  "name": "power.corvid.oliver_primary.name",
+  "description": "power.corvid.oliver_primary.description"
 }

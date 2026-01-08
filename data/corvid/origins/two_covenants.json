@@ -1,10 +1,6 @@
 {
-  "name": {
-    "translate": "origin.corvid.two_covenants.name"
-  },
-  "description": {
-    "translate": "origin.corvid.two_covenants.description"
-  },
+  "name": "origin.corvid.two_covenants.name",
+  "description": "origin.corvid.two_covenants.description",
   "icon": "minecraft:feather",
   "impact": 3,
   "powers": [

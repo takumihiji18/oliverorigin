@@ -2,13 +2,9 @@
   "type": "origins:attribute",
   "modifier": {
     "attribute": "minecraft:generic.armor",
-    "operation": "add_value",
+    "operation": "addition",
     "value": -2
   },
-  "name": {
-    "translate": "power.corvid.weak_armor.name"
-  },
-  "description": {
-    "translate": "power.corvid.weak_armor.description"
-  }
+  "name": "power.corvid.weak_armor.name",
+  "description": "power.corvid.weak_armor.description"
 }

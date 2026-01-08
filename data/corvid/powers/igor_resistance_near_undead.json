@@ -1,40 +1,20 @@
 {
-  "type": "origins:action_over_time",
-  "interval": 20,
+  "type": "origins:modify_damage_taken",
   "condition": {
-    "type": "origins:and",
-    "conditions": [
-      {
-        "type": "origins:power_active",
-        "power": "corvid:igor_mode"
-      },
-      {
-        "type": "origins:nearby_entities",
-        "distance": 8,
-        "entity_condition": {
-          "type": "origins:entity_group",
-          "group": "undead"
-        },
-        "comparison": ">=",
-        "compare_to": 1
-      }
-    ]
+    "type": "origins:power_active",
+    "power": "corvid:igor_mode"
   },
-  "entity_action": {
-    "type": "origins:apply_effect",
-    "effect": {
-      "effect": "minecraft:resistance",
-      "duration": 40,
-      "amplifier": 0,
-      "is_ambient": true,
-      "show_particles": true,
-      "show_icon": true
+  "bientity_condition": {
+    "type": "origins:attacker_condition",
+    "condition": {
+      "type": "origins:entity_group",
+      "group": "undead"
     }
   },
-  "name": {
-    "translate": "power.corvid.igor_resistance_near_undead.name"
+  "modifier": {
+    "operation": "multiply_total",
+    "value": -0.2
   },
-  "description": {
-    "translate": "power.corvid.igor_resistance_near_undead.description"
-  }
+  "name": "power.corvid.igor_resistance_near_undead.name",
+  "description": "power.corvid.igor_resistance_near_undead.description"
 }

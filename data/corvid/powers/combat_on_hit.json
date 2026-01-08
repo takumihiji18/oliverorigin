@@ -6,13 +6,9 @@
       "type": "origins:change_resource",
       "resource": "corvid:combat_timer",
       "operation": "set",
-      "value": 200
+      "change": 200
     }
   },
-  "name": {
-    "translate": "power.corvid.combat_on_hit.name"
-  },
-  "description": {
-    "translate": "power.corvid.combat_on_hit.description"
-  }
+  "name": "power.corvid.combat_on_hit.name",
+  "description": "power.corvid.combat_on_hit.description"
 }

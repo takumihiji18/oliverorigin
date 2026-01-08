@@ -15,10 +15,6 @@
     "operation": "multiply_total",
     "value": 0.2
   },
-  "name": {
-    "translate": "power.corvid.igor_damage_undead.name"
-  },
-  "description": {
-    "translate": "power.corvid.igor_damage_undead.description"
-  }
+  "name": "power.corvid.igor_damage_undead.name",
+  "description": "power.corvid.igor_damage_undead.description"
 }

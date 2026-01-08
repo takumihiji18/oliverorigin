@@ -7,10 +7,6 @@
     "should_render": true,
     "bar_index": 0
   },
-  "name": {
-    "translate": "power.corvid.schism.name"
-  },
-  "description": {
-    "translate": "power.corvid.schism.description"
-  }
+  "name": "power.corvid.schism.name",
+  "description": "power.corvid.schism.description"
 }

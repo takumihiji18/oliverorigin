@@ -11,12 +11,8 @@
     "type": "origins:change_resource",
     "resource": "corvid:combat_timer",
     "operation": "add",
-    "value": -20
+    "change": -20
   },
-  "name": {
-    "translate": "power.corvid.combat_timer_tick.name"
-  },
-  "description": {
-    "translate": "power.corvid.combat_timer_tick.description"
-  }
+  "name": "power.corvid.combat_timer_tick.name",
+  "description": "power.corvid.combat_timer_tick.description"
 }

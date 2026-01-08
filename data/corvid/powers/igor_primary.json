@@ -73,14 +73,10 @@
         "type": "origins:change_resource",
         "resource": "corvid:schism",
         "operation": "add",
-        "value": 10
+        "change": 10
       }
     ]
   },
-  "name": {
-    "translate": "power.corvid.igor_primary.name"
-  },
-  "description": {
-    "translate": "power.corvid.igor_primary.description"
-  }
+  "name": "power.corvid.igor_primary.name",
+  "description": "power.corvid.igor_primary.description"
 }

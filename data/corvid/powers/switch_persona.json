@@ -15,7 +15,7 @@
         "type": "origins:change_resource",
         "resource": "corvid:schism",
         "operation": "add",
-        "value": 5
+        "change": 5
       },
       {
         "type": "origins:apply_effect",
@@ -75,10 +75,6 @@
       }
     ]
   },
-  "name": {
-    "translate": "power.corvid.switch_persona.name"
-  },
-  "description": {
-    "translate": "power.corvid.switch_persona.description"
-  }
+  "name": "power.corvid.switch_persona.name",
+  "description": "power.corvid.switch_persona.description"
 }
