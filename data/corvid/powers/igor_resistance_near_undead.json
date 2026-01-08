@@ -1,19 +1,22 @@
 {
-  "type": "origins:modify_damage_taken",
-  "condition": {
-    "type": "origins:power_active",
-    "power": "corvid:igor_mode"
-  },
-  "damage_condition": {
-    "type": "origins:from_entity",
+  "type": "origins:action_when_damage_taken",
+  "bientity_condition": {
+    "type": "apoli:attacker",
     "entity_condition": {
       "type": "origins:entity_group",
       "group": "undead"
     }
   },
-  "modifier": {
-    "operation": "multiply_total",
-    "value": -0.2
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:resistance",
+      "duration": 40,
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": true,
+      "show_icon": true
+    }
   },
   "name": "power.corvid.igor_resistance_near_undead.name",
   "description": "power.corvid.igor_resistance_near_undead.description"
