@@ -1,0 +1,82 @@
+{
+  "type": "origins:active_self",
+  "key": "key.origins.primary_active",
+  "cooldown": 900,
+  "condition": {
+    "type": "origins:power_active",
+    "power": "corvid:igor_mode"
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:area_of_effect",
+        "radius": 6,
+        "shape": "sphere",
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:if_else",
+            "condition": {
+              "type": "origins:entity_group",
+              "group": "undead"
+            },
+            "if_action": {
+              "type": "origins:and",
+              "actions": [
+                {
+                  "type": "origins:apply_effect",
+                  "effect": {
+                    "effect": "minecraft:slowness",
+                    "duration": 120,
+                    "amplifier": 1,
+                    "is_ambient": true,
+                    "show_particles": true,
+                    "show_icon": true
+                  }
+                },
+                {
+                  "type": "origins:apply_effect",
+                  "effect": {
+                    "effect": "minecraft:weakness",
+                    "duration": 120,
+                    "amplifier": 0,
+                    "is_ambient": true,
+                    "show_particles": true,
+                    "show_icon": true
+                  }
+                },
+                {
+                  "type": "origins:set_on_fire",
+                  "duration": 80
+                }
+              ]
+            },
+            "else_action": {
+              "type": "origins:nothing"
+            }
+          }
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:regeneration",
+          "duration": 80,
+          "amplifier": 0,
+          "is_ambient": true,
+          "show_particles": true,
+          "show_icon": true
+        }
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "corvid:schism",
+        "operation": "add",
+        "change": 10
+      }
+    ]
+  },
+  "name": "power.corvid.igor_primary.name",
+  "description": "power.corvid.igor_primary.description"
+}

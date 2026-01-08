@@ -1,0 +1,6 @@
+{
+  "type": "origins:toggle",
+  "active_by_default": false,
+  "name": "power.corvid.igor_mode.name",
+  "description": "power.corvid.igor_mode.description"
+}

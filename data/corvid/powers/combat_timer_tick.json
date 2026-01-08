@@ -1,0 +1,18 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "corvid:combat_timer",
+    "comparison": ">",
+    "compare_to": 0
+  },
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "corvid:combat_timer",
+    "operation": "add",
+    "change": -20
+  },
+  "name": "power.corvid.combat_timer_tick.name",
+  "description": "power.corvid.combat_timer_tick.description"
+}
