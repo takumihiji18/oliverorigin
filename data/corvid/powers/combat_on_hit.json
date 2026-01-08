@@ -1,0 +1,18 @@
+{
+  "type": "origins:action_on_hit",
+  "bientity_action": {
+    "type": "origins:actor_action",
+    "action": {
+      "type": "origins:change_resource",
+      "resource": "corvid:combat_timer",
+      "operation": "set",
+      "value": 200
+    }
+  },
+  "name": {
+    "translate": "power.corvid.combat_on_hit.name"
+  },
+  "description": {
+    "translate": "power.corvid.combat_on_hit.description"
+  }
+}

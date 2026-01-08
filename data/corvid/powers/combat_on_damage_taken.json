@@ -1,0 +1,15 @@
+{
+  "type": "origins:action_when_damage_taken",
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "corvid:combat_timer",
+    "operation": "set",
+    "value": 200
+  },
+  "name": {
+    "translate": "power.corvid.combat_on_damage_taken.name"
+  },
+  "description": {
+    "translate": "power.corvid.combat_on_damage_taken.description"
+  }
+}
