@@ -1,0 +1,28 @@
+{
+  "name": "origin.corvid.two_covenants.name",
+  "description": "origin.corvid.two_covenants.description",
+  "icon": "minecraft:feather",
+  "impact": 3,
+  "powers": [
+    "corvid:igor_mode",
+    "corvid:schism",
+    "corvid:combat_timer",
+    "corvid:combat_on_hit",
+    "corvid:combat_on_damage_taken",
+    "corvid:combat_timer_tick",
+    "corvid:schism_decay",
+    "corvid:schism_overheat_70",
+    "corvid:schism_overheat_100",
+    "corvid:switch_persona",
+    "corvid:oliver_primary",
+    "corvid:igor_primary",
+    "corvid:oliver_break_speed",
+    "corvid:oliver_xp_gain",
+    "corvid:igor_damage_undead",
+    "corvid:igor_resistance_near_undead",
+    "corvid:ink_wings",
+    "corvid:fragile_frame",
+    "corvid:weak_armor",
+    "corvid:scavenger_sight"
+  ]
+}

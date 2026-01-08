@@ -1,0 +1,23 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 200,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "corvid:schism",
+    "comparison": ">=",
+    "compare_to": 100
+  },
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:slowness",
+      "duration": 60,
+      "amplifier": 0,
+      "is_ambient": true,
+      "show_particles": true,
+      "show_icon": true
+    }
+  },
+  "name": "power.corvid.schism_overheat_100.name",
+  "description": "power.corvid.schism_overheat_100.description"
+}

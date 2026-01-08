@@ -1,0 +1,20 @@
+{
+  "type": "origins:modify_damage_dealt",
+  "condition": {
+    "type": "origins:power_active",
+    "power": "corvid:igor_mode"
+  },
+  "bientity_condition": {
+    "type": "origins:target_condition",
+    "condition": {
+      "type": "origins:entity_group",
+      "group": "undead"
+    }
+  },
+  "modifier": {
+    "operation": "multiply_total",
+    "value": 0.2
+  },
+  "name": "power.corvid.igor_damage_undead.name",
+  "description": "power.corvid.igor_damage_undead.description"
+}

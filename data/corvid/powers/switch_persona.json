@@ -1,0 +1,68 @@
+{
+  "type": "origins:active_self",
+  "key": "key.origins.secondary_active",
+  "cooldown": 200,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "corvid:schism",
+    "comparison": "<",
+    "compare_to": 90
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "corvid:schism",
+        "operation": "add",
+        "change": 5
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:slowness",
+          "duration": 10,
+          "amplifier": 0,
+          "is_ambient": true,
+          "show_particles": true,
+          "show_icon": true
+        }
+      },
+      {
+        "type": "origins:toggle",
+        "power": "corvid:igor_mode"
+      },
+      {
+        "type": "origins:if_else",
+        "condition": {
+          "type": "origins:power_active",
+          "power": "corvid:igor_mode"
+        },
+        "if_action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:play_sound",
+              "sound": "minecraft:block.bell.use",
+              "volume": 1,
+              "pitch": 1
+            }
+          ]
+        },
+        "else_action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:play_sound",
+              "sound": "minecraft:block.amethyst_block.chime",
+              "volume": 1,
+              "pitch": 1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "name": "power.corvid.switch_persona.name",
+  "description": "power.corvid.switch_persona.description"
+}

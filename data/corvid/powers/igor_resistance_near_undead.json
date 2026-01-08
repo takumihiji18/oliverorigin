@@ -1,0 +1,20 @@
+{
+  "type": "origins:modify_damage_taken",
+  "condition": {
+    "type": "origins:power_active",
+    "power": "corvid:igor_mode"
+  },
+  "damage_condition": {
+    "type": "origins:from_entity",
+    "entity_condition": {
+      "type": "origins:entity_group",
+      "group": "undead"
+    }
+  },
+  "modifier": {
+    "operation": "multiply_total",
+    "value": -0.2
+  },
+  "name": "power.corvid.igor_resistance_near_undead.name",
+  "description": "power.corvid.igor_resistance_near_undead.description"
+}

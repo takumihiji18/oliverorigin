@@ -1,0 +1,29 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 40,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:resource",
+        "resource": "corvid:combat_timer",
+        "comparison": "==",
+        "compare_to": 0
+      },
+      {
+        "type": "origins:resource",
+        "resource": "corvid:schism",
+        "comparison": ">",
+        "compare_to": 0
+      }
+    ]
+  },
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "corvid:schism",
+    "operation": "add",
+    "change": -1
+  },
+  "name": "power.corvid.schism_decay.name",
+  "description": "power.corvid.schism_decay.description"
+}
